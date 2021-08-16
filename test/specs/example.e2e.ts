@@ -10,6 +10,11 @@ describe('My Login application', () => {
         await expectAsync(SecurePage.flashAlert).toHaveTextContaining(
             'You logged into a secure area!');
     });
+
+    // it("sample test for retry", async () => {
+    //     expect(5).toEqual(4)
+    // })
 });
+
 
 
